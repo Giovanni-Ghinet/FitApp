@@ -1,6 +1,15 @@
 /* PUNTO 1*/
 
+.stats-container .stats-grid:nth-of-type(1){
+    position: relative;
+}
 
+.stats-container .stats-grid:nth-of-type(1) .stat-number::before{
+    content: "\1F525";
+    padding: 10px;
+    display: block;
+    
+}
 
 /* PUNTO 2*/
 
@@ -15,4 +24,10 @@
   color: white;
 }
 
-/* PUNTO 2*/
+/* PUNTO 3*/
+
+.workout-section .workout-plan:last-child{
+    background-color: rgb(252, 252, 177);
+    border-left: 5px solid orange;
+    
+}
