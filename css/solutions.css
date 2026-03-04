@@ -53,3 +53,12 @@
     content: "\26A1";
     display: block;
 }
+
+/* PUNTO 7-8*/
+
+input:hover,
+select:hover{
+    border: 2px solid blue;
+    box-shadow: 0 15px 35px rgba(0,0,255,0.6);
+}
+
