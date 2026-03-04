@@ -56,10 +56,11 @@
 
 /* PUNTO 7-8*/
 
-input:hover,
-select:hover{
-    border: 2px solid blue;
+input:focus,
+select:focus{
+    border: 4px solid blue;
     box-shadow: 0 15px 35px rgba(0,0,255,0.6);
+    transition: all 0.3s ease;
 }
 
 /* PUNTO 9*/
@@ -78,4 +79,16 @@ select:hover{
     display: block;
     translate: +88% -25%;
     font-size: 0.75rem;
+}
+
+/* PUNTO 11-12*/
+
+.nav-item:hover{
+    background-color: #34495E;
+    color: blue;
+}
+
+.nav-footer .nav-item:first-child{
+    color: blue;
+    background-color: #34495E;
 }
