@@ -34,7 +34,7 @@
 /* PUNTO 4*/
 
 .workout-section .workout-plan:nth-of-type(2){
-    background-color: rgb(252, 252, 177);
+    background-color: #FFF8BA;
     border-left: 5px solid orange;
 }
 
@@ -46,3 +46,10 @@
     border-left: 5px solid #2ECC71;
 }
 
+/* PUNTO 6*/
+
+.exercise-item:nth-of-type(2) .exercise-name::before,
+.exercise-item:nth-of-type(4) .exercise-name::before{
+    content: "\26A1";
+    display: block;
+}
