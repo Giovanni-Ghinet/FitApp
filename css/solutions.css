@@ -92,3 +92,17 @@ select:focus{
     color: blue;
     background-color: #34495E;
 }
+
+/* PUNTO 13*/
+
+.quote-box p::before{
+    content: "\201C";
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.quote-box p::after{
+    content: "\201C";
+    display: inline-block;
+    margin-left: 50px;
+}
