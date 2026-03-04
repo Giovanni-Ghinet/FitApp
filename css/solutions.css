@@ -37,3 +37,12 @@
     background-color: rgb(252, 252, 177);
     border-left: 5px solid orange;
 }
+
+/* PUNTO 5*/
+
+.exercise-item:first-child,
+.exercise-item:last-child{
+    background-color: #F0FFF4;
+    border-left: 5px solid #2ECC71;
+}
+
