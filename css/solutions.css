@@ -69,3 +69,13 @@ select:hover{
     background-color: blue;
     box-shadow: 0 15px 35px rgba(0,0,255,0.6);
 }
+
+/* PUNTO 10*/
+
+.progress-section .progress-bar .progress-fill::after{
+    content: "65%";
+    color: white;
+    display: block;
+    translate: +88% -25%;
+    font-size: 0.75rem;
+}
