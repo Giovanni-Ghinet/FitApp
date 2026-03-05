@@ -61,6 +61,7 @@ select:focus{
     border: 4px solid blue;
     box-shadow: 0 15px 35px rgba(0,0,255,0.6);
     transition: all 0.3s ease;
+    outline: none;
 }
 
 /* PUNTO 9*/
@@ -73,12 +74,16 @@ select:focus{
 
 /* PUNTO 10*/
 
-.progress-section .progress-bar .progress-fill::after{
+.progress-fill::after{
     content: "65%";
     color: white;
     display: block;
-    translate: +88% -25%;
-    font-size: 0.75rem;
+    right: 10px;
+    top: 55%;
+    translate: 0 -50%;
+    font-size: 0.65rem;
+    position: absolute;
+    font-weight: bold;
 }
 
 /* PUNTO 11-12*/
@@ -96,13 +101,20 @@ select:focus{
 /* PUNTO 13*/
 
 .quote-box p::before{
-    content: "\201C";
-    display: inline-block;
-    margin-right: 20px;
+    content: '"';
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-size: 3rem;
+    opacity: 0.3;
 }
 
 .quote-box p::after{
-    content: "\201C";
-    display: inline-block;
-    margin-left: 50px;
+    content: '"';
+    position: absolute;
+    bottom: 5px;
+    right: 10px;
+    font-size: 3rem;
+    opacity: 0.3;
+    translate: 0 20%;
 }
